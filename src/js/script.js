@@ -19,13 +19,13 @@ function display(x, shefaseba) {
 function shefaseba(price) {
     if(price > 50){
         return "ძვირია"
-    } else if (price >20 || price < 50) {
+    } else if (price >20 && price < 50) {
         return "საშუალო ფასი"
     } else {
         return "იაფია"
     }
 }
-display(55, shefaseba)
+display(10, shefaseba)
 
 //3) მოცემული მასივიდან [ 15,53,22,198,10,28,16,70,33,951 ] დაბეჭდეთ ყველაზე დიდი რიცხვი
 
